@@ -9,7 +9,7 @@ public class MenuPrincipal : MonoBehaviour
         SceneManager.LoadScene("1 - Tutorial");
     }
 
-    public void FecharJogo(){
+    public void FecharJogo(){ 
         Debug.Log("FECHAR O JOGO");
         Application.Quit();
     }
